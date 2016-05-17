@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /php/mordernphp/
+
+RewriteRule ^(.*)$ index.php?uri=$1 [QSA,L] 

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /php/routing/
+
+RewriteRule ^(.*)$ index.php [NC,L] 
