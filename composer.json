@@ -3,5 +3,8 @@
 	"psr-4":{
 	    "Routing\\": "app/Routing"
 	}
+    },
+    "require": {
+        "php-activerecord/php-activerecord": "^1.1"
     }
 }

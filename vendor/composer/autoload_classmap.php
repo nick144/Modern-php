@@ -6,5 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Routing\\Controller\\About' => $baseDir . '/app/Routing/Controller/About.php',
+    'Routing\\Controller\\Contact' => $baseDir . '/app/Routing/Controller/Contact.php',
+    'Routing\\Controller\\Home' => $baseDir . '/app/Routing/Controller/Home.php',
+    'Routing\\Model\\User' => $baseDir . '/app/Routing/Model/User.php',
     'Routing\\lib\\Route' => $baseDir . '/app/Routing/lib/Route.php',
 );

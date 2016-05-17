@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit304a9302616a6d9d64c042630dc29b78
 {
+    public static $files = array (
+        '6e60481d8c04e99474e2ba7b3658ab5a' => __DIR__ . '/..' . '/php-activerecord/php-activerecord/ActiveRecord.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'R' => 
         array (
@@ -21,6 +25,10 @@ class ComposerStaticInit304a9302616a6d9d64c042630dc29b78
     );
 
     public static $classMap = array (
+        'Routing\\Controller\\About' => __DIR__ . '/../..' . '/app/Routing/Controller/About.php',
+        'Routing\\Controller\\Contact' => __DIR__ . '/../..' . '/app/Routing/Controller/Contact.php',
+        'Routing\\Controller\\Home' => __DIR__ . '/../..' . '/app/Routing/Controller/Home.php',
+        'Routing\\Model\\User' => __DIR__ . '/../..' . '/app/Routing/Model/User.php',
         'Routing\\lib\\Route' => __DIR__ . '/../..' . '/app/Routing/lib/Route.php',
     );
 

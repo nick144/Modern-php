@@ -13,5 +13,17 @@ $route->add('/contact', 'contact');
 
 $route->submit();
 
-//echo "<pre>";
-//print_r($route);
+ActiveRecord\Config::initialize(function($config){
+    $config->set_connections([
+        'development' => 'mysql://dom:root@127.0.0.1/website'
+    ]);
+});
+
+
+use Routing\Model\User;
+
+
+User::create([
+    'username' => 'Dominic',
+    'email'    => 'dominic@tonicbuzz.com'
+]);

@@ -1,0 +1,7 @@
+<?php
+
+namespace Routing\Model;
+
+class User extends ActiveRecord{
+    
+}
